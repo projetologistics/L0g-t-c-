@@ -11,6 +11,7 @@ namespace Logistics.Infra.Data.Context
     {
         public LogisticsContext() : base("Name=LogisticsContext")
         {
+            //Comentario do Moura
         }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
