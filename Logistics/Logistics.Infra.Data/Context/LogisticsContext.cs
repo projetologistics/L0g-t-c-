@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Logistics.Infra.Data.Context
 {
+  
     public class LogisticsContext
     {
+        //TODO - IMPLEMENTAR
     }
 }
