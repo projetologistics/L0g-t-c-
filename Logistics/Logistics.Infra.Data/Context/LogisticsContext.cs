@@ -8,18 +8,14 @@ using System.Threading.Tasks;
 namespace Logistics.Infra.Data.Context
 {
   
-    public class LogisticsContext : DbContext
+    public class LogisticsContext
     {
-
-        public LogisticsContext():base("teste")
-        {
-
-        }
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
             base.OnModelCreating(modelBuilder);
         }
         //TODO - IMPLEMENTAR
+        public LogisticsContext() : base("Name=LogisticsContext")
+        {
+
+        }
     }
 }
