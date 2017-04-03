@@ -8,14 +8,12 @@ using System.Threading.Tasks;
 namespace Logistics.Infra.Data.Context
 {
   
-    public class LogisticsContext
+    public class LogisticsContext : DbContext
     {
-            base.OnModelCreating(modelBuilder);
-        }
-        //TODO - IMPLEMENTAR
         public LogisticsContext() : base("Name=LogisticsContext")
         {
 
         }
+
     }
 }
