@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LogisticsMVC")]
+[assembly: AssemblyTitle("Logistics.MVC")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LogisticsMVC")]
+[assembly: AssemblyProduct("Logistics.MVC")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c587b184-68c8-4936-ace6-64a3c723a594")]
+[assembly: Guid("a7f380bb-6b9e-4165-b019-dfd5b9b9c0da")]
 
 // Version information for an assembly consists of the following four values:
 //
