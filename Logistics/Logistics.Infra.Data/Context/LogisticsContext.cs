@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logistics.Infra.Data.Context
 {
-    class LogisticsContext
+    public class LogisticsContext
     {
     }
 }
