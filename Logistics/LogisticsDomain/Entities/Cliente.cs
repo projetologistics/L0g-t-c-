@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LogisticsDomain.Entities
+namespace Logistics.Domain.Entities
 {
     public class Cliente
     {
