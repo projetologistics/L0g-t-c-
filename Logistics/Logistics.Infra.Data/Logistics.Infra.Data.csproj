@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\LogisticsContext.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,8 +62,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Logistcs.Domain\Logistics.Domain.csproj">
-      <Project>{720bc4c8-d5aa-4fdf-9e31-bb4885713886}</Project>
+    <ProjectReference Include="..\Logistics.Domain\Logistics.Domain.csproj">
+      <Project>{6c469903-cdf1-4454-b703-ee18623a45a6}</Project>
       <Name>Logistics.Domain</Name>
     </ProjectReference>
   </ItemGroup>
