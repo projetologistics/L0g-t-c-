@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Logistcs.Domain.Entities
+namespace Logistics.Domain.Entities
 {
     public class Cliente
     {
@@ -17,7 +17,7 @@ namespace Logistcs.Domain.Entities
 
         public bool ClienteEspecial(Cliente cliente)
         {
-            return cliente.Ativo && DateTime.Now.Year - cliente.DataCadastro.Year >= 5;
+            return cliente.Ativo && DateTime.Now.Year - cliente.DataCadastro.Year >= 5; ;
         }
     }
 }

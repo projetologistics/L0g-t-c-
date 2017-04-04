@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{37CFC5EB-B45A-4CD3-B70E-0B409B178AA0}"
 EndProject
@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Appl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.Application", "Logistics.Application\Logistics.Application.csproj", "{44A54DF1-9F4F-411F-AC32-155A7B8C58A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistcs.Domain", "Logistcs.Domain\Logistcs.Domain.csproj", "{720BC4C8-D5AA-4FDF-9E31-BB4885713886}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.Domain", "Logistcs.Domain\Logistics.Domain.csproj", "{720BC4C8-D5AA-4FDF-9E31-BB4885713886}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
