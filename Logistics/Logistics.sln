@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Appl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.Application", "Logistics.Application\Logistics.Application.csproj", "{44A54DF1-9F4F-411F-AC32-155A7B8C58A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.Domain", "LogisticsDomain\Logistics.Domain.csproj", "{791F8E4C-02C1-4D1C-8695-C5F1FED00018}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.Domain1", "LogisticsDomain\Logistics.Domain1.csproj", "{791F8E4C-02C1-4D1C-8695-C5F1FED00018}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

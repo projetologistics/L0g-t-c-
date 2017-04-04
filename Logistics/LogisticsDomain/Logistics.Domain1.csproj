@@ -7,8 +7,8 @@
     <ProjectGuid>{791F8E4C-02C1-4D1C-8695-C5F1FED00018}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LogisticsDomain</RootNamespace>
-    <AssemblyName>LogisticsDomain</AssemblyName>
+    <RootNamespace>Logistics.Domain</RootNamespace>
+    <AssemblyName>Logistics.Domain</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
