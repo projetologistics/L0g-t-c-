@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{37CFC5EB-B45A-4CD3-B70E-0B409B178AA0}"
 EndProject
@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.MVC", "Logistics.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.Infra.Data", "Logistics.Infra.Data\Logistics.Infra.Data.csproj", "{84996C89-356D-47ED-904E-552ED55779D8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{6CE62CC6-5D8B-4585-9AC1-59E27FE87F0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logistics.Application", "Logistics.Application\Logistics.Application.csproj", "{44A54DF1-9F4F-411F-AC32-155A7B8C58A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{84996C89-356D-47ED-904E-552ED55779D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84996C89-356D-47ED-904E-552ED55779D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84996C89-356D-47ED-904E-552ED55779D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A54DF1-9F4F-411F-AC32-155A7B8C58A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A54DF1-9F4F-411F-AC32-155A7B8C58A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A54DF1-9F4F-411F-AC32-155A7B8C58A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A54DF1-9F4F-411F-AC32-155A7B8C58A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +57,6 @@ Global
 		{1BC2B291-A71D-4BBC-B811-000FE8572A72} = {FEBDA2BD-B634-4160-B431-B68448D07B44}
 		{534BFA22-0085-4657-95E4-A86220A05ACA} = {37CFC5EB-B45A-4CD3-B70E-0B409B178AA0}
 		{84996C89-356D-47ED-904E-552ED55779D8} = {1B563FB1-5791-4CE8-8AEC-FCF6DFC7BC00}
+		{44A54DF1-9F4F-411F-AC32-155A7B8C58A1} = {6CE62CC6-5D8B-4585-9AC1-59E27FE87F0B}
 	EndGlobalSection
 EndGlobal
