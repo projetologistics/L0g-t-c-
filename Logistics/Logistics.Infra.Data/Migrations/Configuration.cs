@@ -5,14 +5,14 @@ namespace Logistics.Infra.Data.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Context.LogisticsContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Logistics.Infra.Data.Context.LogisticsContext>
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Context.LogisticsContext context)
+        protected override void Seed(Logistics.Infra.Data.Context.LogisticsContext context)
         {
             //  This method will be called after migrating to the latest version.
 
