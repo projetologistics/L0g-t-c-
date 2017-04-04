@@ -1,7 +1,7 @@
 ﻿
 
 
-using Logistics.Domain.Entities;
+//using Logistics.Domain.Entities;
 using System.Data.Entity;
 
 namespace Logistics.Infra.Data.Context
@@ -13,7 +13,7 @@ namespace Logistics.Infra.Data.Context
             
         }
 
-       public DbSet<Cliente> Clientes { get; set; }
+      // public DbSet<Cliente> Clientes { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
