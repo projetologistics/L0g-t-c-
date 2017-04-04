@@ -1,5 +1,6 @@
 ﻿
-using Logistics.Domain.Entities;
+using Logistcs.Domain.Entities;
+
 using System.Data.Entity;
 
 namespace Logistics.Infra.Data.Context
